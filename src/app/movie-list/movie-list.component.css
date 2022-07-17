@@ -1,0 +1,29 @@
+.div-movie-item{
+  padding: 10px;
+  border: 1px blue solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.p-title{
+  font-size: 16px;
+}
+
+.p-description{
+  font-size: 14px;
+}
+
+.p-year{
+  font-size: 10px;
+}
+
+.p-director{
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.p-text{
+  color: blue;
+}

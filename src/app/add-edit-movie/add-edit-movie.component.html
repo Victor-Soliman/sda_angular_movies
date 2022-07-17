@@ -1,0 +1,42 @@
+
+<mat-form-field class="input-width" appearance="fill">
+  <mat-label>Title</mat-label>
+  <input matInput type="text" [(ngModel)]="title">
+  <button *ngIf="title" matSuffix mat-icon-button aria-label="Clear" (click)="title=''">
+    <mat-icon>close</mat-icon>
+  </button>
+</mat-form-field>
+
+<br>
+
+<mat-form-field class="input-width" appearance="fill">
+  <mat-label>Description</mat-label>
+  <input matInput type="text" [(ngModel)]="description">
+  <button *ngIf="description" matSuffix mat-icon-button aria-label="Clear" (click)="description=''">
+    <mat-icon>close</mat-icon>
+  </button>
+</mat-form-field>
+
+<br>
+
+<mat-form-field class="input-width" appearance="fill">
+  <mat-label>Year</mat-label>
+  <input matInput type="text" [(ngModel)]="year">
+  <button *ngIf="year" matSuffix mat-icon-button aria-label="Clear" (click)="year=''">
+    <mat-icon>close</mat-icon>
+  </button>
+</mat-form-field>
+
+<br>
+
+<mat-form-field class="input-width" appearance="fill">
+  <mat-label>Director</mat-label>
+  <input matInput type="text" [(ngModel)]="director">
+  <button *ngIf="director" matSuffix mat-icon-button aria-label="Clear" (click)="director=''">
+    <mat-icon>close</mat-icon>
+  </button>
+</mat-form-field>
+
+<br>
+<button mat-raised-button color="primary" (click)="onSubmitClicked()">Submit</button>
+<button mat-raised-button color="primary" *ngIf="movie" (click)="onUpdateClicked()">Update</button>

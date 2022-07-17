@@ -1,3 +1,7 @@
+.div-movie-page{
+  margin: 16px;
+
+}
 .div-full-size{
   height: 100%;
   display: flex;
@@ -6,4 +10,3 @@
 .center-component{
   margin: auto;
 }
-
